@@ -26,17 +26,18 @@
     })();
     </script>
 {% endif %}
-{% if site.google_analytics_id %}
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics_id}}"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
 
-		gtag('config', '{{site.google_analytics_id}}');
-	</script>
-{% endif %}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121669415-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121669415-1');
+</script>
+
 
 {% if page.mathjax %}
 <script type="text/x-mathjax-config">
