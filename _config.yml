@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: LYJ Blog
+title: LYJ's Blog
 brief-intro: Software Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lyj9172.github.io" # the base hostname & protocol for your site
