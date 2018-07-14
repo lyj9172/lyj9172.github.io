@@ -16,7 +16,6 @@ author: Evan
 
 ```html
 <script src="/js/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
 ```
 
 - 使用下面方法在页面中插入图表
@@ -31,7 +30,6 @@ author: Evan
 流程图源码
 ```html
 <script src="/js/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
 <div class="mermaid">
 graph TD
     A(Java)
@@ -47,22 +45,8 @@ graph TD
 </div>
 ```
 流程图效果图
+[![20180714140719453.jpg](https://i.loli.net/2018/07/14/5b4993677e35d.jpg)](https://i.loli.net/2018/07/14/5b4993677e35d.jpg)
 
-<script src="/js/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
-<div class="mermaid">
-graph TD
-    A(Java)
-    B(Java se)
-    C(Java ee)
-    D(Java me)
-    A-.->B
-    A-.->C
-    A-.->D
-    classDef className fill:#f9f,stroke:#333,stroke-width:4px;
-    class B,C,D className;
-    style A fill:#ccf,stroke:#f66,stroke-width:2px,stroke-dasharray: 5, 5
-</div>
 
 序列图源码
 ```html
@@ -80,18 +64,7 @@ sequenceDiagram
 </div>    
 ```
 序列图效果图
-<div class="mermaid">
-sequenceDiagram
-    Alice->>Bob: Hello Bob, how are you?
-    alt is sick
-        Bob->>Alice: Not so good :(
-    else is well
-        Bob->>Alice: Feeling fresh like a daisy
-    end
-    opt Extra response
-        Bob->>Alice: Thanks for asking
-    end
-</div>  
+[![20180714140801921.jpg](https://i.loli.net/2018/07/14/5b4994acad8c1.jpg)](https://i.loli.net/2018/07/14/5b4994acad8c1.jpg)
 
 ## 参考
 具体请参考【[Mermaid指南](https://mermaidjs.github.io/)】
