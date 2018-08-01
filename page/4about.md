@@ -11,7 +11,7 @@ type: page
 
 ## 关于我
 
-<iframe src="https://githubbadge.appspot.com/lyj9172?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+常用英文名：Evan / Evan Lee
 
 就职于华为技术有限公司GTS部，从事软件系统集成与交付。
 
