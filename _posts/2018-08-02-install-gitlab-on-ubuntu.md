@@ -99,7 +99,8 @@ root@gitser:~/lyjtmp#
 
 
 ## 4. 安装gitlab
-1. 使用命令dpkg安装
+
+1.使用命令dpkg安装
 ```
 root@gitser:~/gitpkg# dpkg -i gitlab-ce_11.1.4-ce.0_amd64.deb 
 Selecting previously unselected package gitlab-ce.
@@ -142,10 +143,9 @@ For a comprehensive list of configuration options please see the Omnibus GitLab 
 https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md
 
 root@gitser:~/gitpkg# 
-
 ```
 
-2. 初始配置
+2.初始配置
 ```
 root@gitser:~/gitpkg# gitlab-ctl reconfigure
 ```
@@ -156,8 +156,7 @@ Running handlers complete
 Chef Client finished, 430/611 resources updated in 03 minutes 25 seconds
 gitlab Reconfigured!
 ```
-3. 检查GitLab运行状态
-
+3.检查GitLab运行状态
 ```
 root@gitser:~/gitpkg# gitlab-ctl status
 run: alertmanager: (pid 13611) 125s; run: log: (pid 13643) 124s
@@ -176,13 +175,13 @@ run: sidekiq: (pid 12991) 214s; run: log: (pid 13513) 128s
 run: unicorn: (pid 12954) 220s; run: log: (pid 13517) 128s
 root@gitser:~/gitpkg# 
 ```
-4. 修改创建项目后git地址gitlab.example.com为ip地址
+4.修改创建项目后git地址gitlab.example.com为ip地址
 ```
 root@gitser:~/gitpkg# vi /opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml
 ```
 host: localhost中将localhost改为主机的IP即可
 
-5. 更改访问ip（出现502错误时或主动更改ip）
+5.更改访问ip（出现502错误时或主动更改ip）
 ```
 root@gitser:~# vi /etc/gitlab/gitlab.rb
 ```
@@ -201,7 +200,7 @@ listen "192.168.3.184:9988"
 
 其中192.168.3.184为服务器访问IP
 
-6. 使用上面修改生效
+6.使用上面修改生效
 ```
 root@gitser:~# gitlab-ctl reconfigure
 ```
@@ -212,15 +211,18 @@ Running handlers complete
 Chef Client finished, 12/557 resources updated in 43 seconds
 gitlab Reconfigured!
 ```
-7. 首次访问GitLab，默认用户为root，强制修改密码
+7.首次访问GitLab，默认用户为root，强制修改密码
 
 重置root密码
+
 [![360截图20180802015848782.jpg](https://i.loli.net/2018/08/02/5b61f5c7e3705.jpg)](https://i.loli.net/2018/08/02/5b61f5c7e3705.jpg)
 
 使用root用户登录
+
 [![360截图20180802015958475.jpg](https://i.loli.net/2018/08/02/5b61f5c7e4eb1.jpg)](https://i.loli.net/2018/08/02/5b61f5c7e4eb1.jpg)
 
 尽情使用GitLab吧
+
 [![360截图20180802020119454.jpg](https://i.loli.net/2018/08/02/5b61f5c7e67a9.jpg)](https://i.loli.net/2018/08/02/5b61f5c7e67a9.jpg)
 
 ## 附加：
