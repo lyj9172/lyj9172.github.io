@@ -51,7 +51,7 @@ The key's randomart image is:
 
 使用上面同样的方法生成三套ssh密钥
 ID|username |ssh私钥|ssh公钥
----|---|---|---|---
+---|---|---|---
 1|user1 |/c/Users/lyj91/.ssh/id_rsa_gitlabuser1|/c/Users/lyj91/.ssh/id_rsa_gitlabuser1.pub
 2|user2 |/c/Users/lyj91/.ssh/id_rsa_gitlabuser2|/c/Users/lyj91/.ssh/id_rsa_gitlabuser2.pub
 3|user3 |/c/Users/lyj91/.ssh/id_rsa_githubuser3|/c/Users/lyj91/.ssh/id_rsa_githubuser3.pub
