@@ -11,6 +11,8 @@ type: page
 
 ## 关于我
 
+<img src="https://i.loli.net/2018/08/03/5b6357eec0c83.jpg" width="100" hegiht="100" align=center />
+
 常用英文名： Evan / Evan Lee
 
 就职于华为技术有限公司GTS部，从事软件系统集成与交付。
@@ -27,7 +29,7 @@ type: page
 
 ## 联系我
 
-* GitHub：[LiYongjie](https://github.com/lyj9172)
+* GitHub：[Li Yongjie](https://github.com/lyj9172)
 * email：lyj9172@163.com
 * 微信/WeChat: JeackyLee_cn
 
