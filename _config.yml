@@ -9,7 +9,7 @@
 title: LYJ's Blog
 brief-intro: Software Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lyj9172.github.io" # the base hostname & protocol for your site
+url: "http://www.igithub.top/" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
