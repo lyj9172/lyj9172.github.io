@@ -290,4 +290,7 @@ Syntax Theme: Atom Dark or One Dark
 
     首页的卡片翻动效果非常赞。
 
+## 文章
+
+- [GitLab使用教程 https://blog.csdn.net/Adelly/article/details/79099772](https://blog.csdn.net/Adelly/article/details/79099772)
 
